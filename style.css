@@ -13,6 +13,7 @@ html{
 
 #home{
     position: relative;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -105,10 +106,7 @@ html{
     }
 }
 .logoMain{
-    width : 100px;
-    height: 100px;
-    position: relative;
-    bottom: 8px;
+    height: 90%;
 }
 .navLinks .link{
     color: white;
