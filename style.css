@@ -91,9 +91,17 @@ html{
         z-index: 100;
     }
 }
-.Logo{
-    width : 50%;
-    padding-left: 40px;
+@media screen and (min-width: 800px){
+    .Logo{
+        width : 50%;
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 800px){
+    .Logo{
+        width : 50%;
+        padding-left: 10px;
+    }
 }
 .logoMain{
     width : 100px;
@@ -218,12 +226,23 @@ html{
     }
 }
 /* info division styling */
-.info{
-    position: absolute;
-    top : 50vh;
-    left : 60px;
-    color: white;
-    width: 60%;
+@media screen and (min-width: 800px){
+    .info{
+        position: absolute;
+        top : 50vh;
+        left : 60px;
+        color: white;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 800px){
+    .info{
+        position: absolute;
+        top : 50vh;
+        left : 30px;
+        color: white;
+        width: 60%;
+    }
 }
 .infoText{
     font-size: 1rem;
