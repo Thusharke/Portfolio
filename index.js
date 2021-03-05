@@ -14,7 +14,7 @@ function typeFunction(){
     setInterval(function(){
         var header = document.querySelector(".header");
         header.textContent = arr[i%3];
-        header.style.animation = anime[i%3] + " " + 5 + "s steps(" + arr[i%3].length + ") ";
+        header.style.animation = anime[i%3] + " " + 5 + "s steps(" + ((arr[i%3].length-4)*2) + ") ";
         i++;
     },5000);
 }
